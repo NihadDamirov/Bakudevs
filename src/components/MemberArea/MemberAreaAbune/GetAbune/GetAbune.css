@@ -1,0 +1,73 @@
+.abune-container{
+    width: 614px;
+    height: 418px;
+    box-shadow: 6px 10px 20px 0px #015E640F;
+    background-color: white;
+    border-radius: 20px;
+    position: absolute;
+    z-index: 2;
+    left: 670px;
+}
+
+.radio-wrapper{
+    display:flex;
+    width: 526px;
+    justify-content: space-between;
+}
+
+.refresh{
+    width: 183px;
+    height: 50px;
+    background-color: #008D96;
+    border: none;
+    border-radius: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 20px;
+    line-height: 25.1px;
+    color: white;
+    font-weight: 700;
+
+}
+
+.main-paragraph{
+    width: 369px;
+    height: 52px;
+    margin-top: 44px;
+    margin-left: 45px;
+}
+
+.close-abune{
+    position: absolute;
+    right: 21px;
+    top: 25px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+button{
+    cursor: pointer;
+}
+
+.input-radio{
+    width: 20px;
+    height: 20px;
+    margin: 0;
+}
+
+.amount{
+    margin: 0;
+    padding: 0;
+    color: #000;
+}
+
+.line-abune{
+    width: 526px;
+    height: 1px;
+    background-color: #E3E3E3;
+    margin-top: 17px;
+    margin-bottom: 17px;
+}

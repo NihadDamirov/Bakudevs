@@ -1,0 +1,40 @@
+.save-btn{
+    width: 216px;
+    height: 50px;
+    border-radius: 70px;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 25px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #fff;
+    border: none;
+    background-color: #008D96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 55px;
+
+}
+
+label{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 26px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-top: 19px;
+    margin-bottom: 9px;
+
+}
+
+
+.profil-input{
+    width: 300px;
+    height: 50px;
+    border-radius: 8px;
+    border: 1px
+
+}

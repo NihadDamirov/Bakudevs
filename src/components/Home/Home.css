@@ -1,0 +1,231 @@
+.home-container{
+    margin: 0 auto;
+}
+
+.home-part-one{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url("/public/wavy-pic.png");
+    width: 1440px;
+    height: 803px;
+    flex-wrap: nowrap;
+}
+
+.home-part-one-left{
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    width: 514px;
+}
+
+.main-heading{
+    font-family: "Lora", serif;
+    font-size: 56px;
+    font-weight: 600;
+    align-items: center;
+    margin: 0;
+}
+
+.kurslar-btn{
+    width: 160px;
+    height: 55px;
+    border-radius: 70px;
+    background-color: #008D96;
+    border: none;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0;
+}
+
+.home-part-one-right{
+    position: relative;
+    width: 600px;
+    height: 480px;
+}
+
+.home-part-one-right div{
+    position: absolute;
+}
+
+.home-part-two-above{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+}
+
+.populyar-kurslar{
+    font-family: Lora;
+    font-size: 41px;
+    font-weight: 600;
+    text-align: left;
+}
+
+.home-part-two button{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    background-color: #008D96;
+    width: 136px;
+    height: 45px;
+    top: 907px;
+    left: 894px;
+    border-radius: 8px;
+    border: 1px;
+    border: none;
+    color: #fff;
+}
+
+.button-div{
+    display: flex;
+    gap: 15px;
+}
+
+.home-card{
+    width: 270px;
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    box-shadow: 2px 8px 20px 0px #00000017;
+    border-radius: 20px;
+
+}
+/* 
+.course-title h1{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+} */
+
+.course-name-and-time{
+    width: 238px;
+    gap: 55px;    
+    margin-top:15px ;
+}
+
+.coursetime{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    color: #939393;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.coursename{
+    width: 100px;
+    height: 31px;
+    border-radius: 8px;
+    background-color: #F5AF15;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+
+.pause-icon-div img{
+    width: fit-content;
+    margin-left: 4px;
+    margin-top: 1px;
+}
+
+
+.home-part-two-middle{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+
+.home-part-two-end #butun-kurslar{
+    width: 230px;
+    height: 55px;
+    border-radius: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    text-decoration: none;
+    background-color: #008D96;
+    color: white;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.home-part-three{
+    margin-top: 150px;
+    background-color: #E3F1F2;
+}
+
+.home-part-three-middle{
+    display: flex;
+
+}
+
+.home-part-three p{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.home-part-three-left{
+    display: flex;
+    width: 618px;
+    gap: 26px;
+    flex-wrap: wrap;
+}
+
+.advantages{
+    width: 296px;
+    height: 280px;
+    text-align: center;
+    border-radius: 30px;
+    box-shadow: 3px 7px 30px 0px #015E6426;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* .advantages-icon-background{
+    width:"60px";
+    height:"60px";                Bəzi css lər nə üçün bu hissədə işləmir teqə verəndə işləyir?
+    background-color:"red"
+} */
+
+.advantages h1{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.advantages p{
+    font-family: Mulish;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #939393;
+    width: 260px;
+    margin-top: 15px;
+}

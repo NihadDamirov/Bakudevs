@@ -1,0 +1,145 @@
+.home-part-two-middle{
+    margin-top: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 35px;
+    justify-content: center;
+}
+
+.home-card{
+    width: 270px;
+    height: 347px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0;
+    box-shadow: 2px 8px 20px 0px #00000017;
+    border-radius: 20px;
+    position: relative;
+
+}
+
+.course-name-and-time{
+    width: 238px;
+    gap: 55px;    
+    margin-top:15px ;
+}
+
+.coursename{
+    width: 100px;
+    height: 31px;
+    border-radius: 8px;
+    background-color: #F5AF15;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.coursetime{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 600;
+    color: #939393;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.line{
+    width: fit-content;
+    height: 1px;
+    background-color: #D9D9D9;
+    margin-top: 15px;
+}
+
+.coursetitlewrapper{
+    display: flex;
+    justify-content: space-between;
+    width: 238px;
+    box-sizing: border-box;
+    margin-top: 20px;
+    align-items: center;
+}
+
+.coursetitle{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+} 
+
+.pause-disc{
+    width: 50px;
+    height: 50px;
+    background-color: #008D96;
+    border-radius: 50%;
+}
+
+.pause-icon-div{
+    width: 20px;
+    height: 20px;
+}
+
+.card-link{
+    text-decoration: none;
+    color: #000;
+}
+
+.heart-icon-three{
+    position: absolute;
+    z-index: 1;
+    top: 20px;
+    right: 25px;
+}
+
+.heart-icon-three:hover{
+    color: red !important
+}
+
+/* Buttons */
+
+.home-part-two-above{
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    
+    
+}
+
+.populyar-kurslar{
+    font-family: Lora;
+    font-size: 41px;
+    font-weight: 600;
+    text-align: left;
+}
+.button-div{
+    display: flex;
+    gap: 20px;
+    width: 550px;
+    margin-top: 15px;
+}
+
+.button-div .btn{
+    width: 120px;
+    background-color: #fff;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 23px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #008D96;
+    border-radius: 8px;
+    border: 1px solid #008D96;
+    text-decoration: none;
+    padding: 9px 30px 9px 30px;
+
+    }
+    
+    .btn.active{
+        background-color: #008D96;
+        color: #fff;
+    }

@@ -1,0 +1,158 @@
+{
+  "courses": [
+    {
+      "id": "1",
+      "course_name": "Frontend",
+      "course_type": "Javascript",
+      "course_lesson_time": 15,
+      "course_img": "/fe-js.png"
+    },
+    {
+      "id": "2",
+      "course_name": "Backend",
+      "course_type": "Php,MySql",
+      "course_lesson_time": 8,
+      "course_img": "/be-php-mysql.png"
+    },
+    {
+      "id": "3",
+      "course_name": "UI/UX",
+      "course_type": "UI/UX design",
+      "course_lesson_time": 8,
+      "course_img": "/ui-ux-design.png"
+    },
+    {
+      "id": "4",
+      "course_name": "Backend",
+      "course_type": "Android",
+      "course_lesson_time": 8,
+      "course_img": "/android-lesson.png"
+    },
+    {
+      "id": "5",
+      "course_name": "UI/UX",
+      "course_type": "UI/UX Figma design",
+      "course_lesson_time": 8,
+      "course_img": "/ui-ux-design-figma.png"
+    },
+    {
+      "id": "6",
+      "course_name": "Backend",
+      "course_type": "C#",
+      "course_lesson_time": 8,
+      "course_img": "/be-c.png"
+    },
+    {
+      "id": "7",
+      "course_name": "Frontend",
+      "course_type": "Html",
+      "course_lesson_time": 8,
+      "course_img": "/fe-html.png"
+    },
+    {
+      "id": "8",
+      "course_name": "Backend",
+      "course_type": "MySql",
+      "course_lesson_time": 8,
+      "course_img": "/be-mysql.png"
+    },
+    {
+      "id": "9",
+      "course_name": "Frontend",
+      "course_type": "Html&Css",
+      "course_lesson_time": 18,
+      "course_img": "/fe-html-css.png"
+    },
+    {
+      "id": "10",
+      "course_name": "Backend",
+      "course_type": "IOS",
+      "course_lesson_time": 8,
+      "course_img": "/ios.png"
+    },
+    {
+      "id": "11",
+      "course_name": "UI/UX",
+      "course_type": "UI/UX XD design",
+      "course_lesson_time": 8,
+      "course_img": "/ui-ux-design-xd.png"
+    },
+    {
+      "id": "12",
+      "course_name": "Backend",
+      "course_type": "Backend",
+      "course_lesson_time": 18,
+      "course_img": "/be.png"
+    }
+  ],
+  "likes": [
+    {
+      "id": "1",
+      "course_name": "Frontend",
+      "course_type": "Javascript",
+      "course_lesson_time": 15,
+      "course_img": "/fe-js.png"
+    },
+    {
+      "id": "2",
+      "course_name": "Backend",
+      "course_type": "Php,MySql",
+      "course_lesson_time": 8,
+      "course_img": "/be-php-mysql.png"
+    },
+    {
+      "id": "9",
+      "course_name": "Frontend",
+      "course_type": "Html&Css",
+      "course_lesson_time": 18,
+      "course_img": "/fe-html-css.png"
+    },
+    {
+      "id": "10",
+      "course_name": "Backend",
+      "course_type": "IOS",
+      "course_lesson_time": 8,
+      "course_img": "/ios.png"
+    },
+    {
+      "id": "7",
+      "course_name": "Frontend",
+      "course_type": "Html",
+      "course_lesson_time": 8,
+      "course_img": "/fe-html.png"
+    },
+    {
+      "id": "8",
+      "course_name": "Backend",
+      "course_type": "MySql",
+      "course_lesson_time": 8,
+      "course_img": "/be-mysql.png"
+    }
+  ],
+  "receipts": [
+    {
+      "id": "1",
+      "receipt_id": "000000001",
+      "subscription_date": "07.02.2022",
+      "amount": " AZN"
+    },
+    {
+      "id": "2",
+      "receipt_id": "000000002",
+      "subscription_date": "02.05.2022",
+      "amount": "10 AZN"
+    },
+    {
+      "id": "1",
+      "receipt_id": "000000003",
+      "subscription_date": "12.03.2022",
+      "amount": "10 AZN"
+    },
+    {
+      "id": "1",
+      "receipt_id": "000000004",
+      "subscription_date": "02.02.2022",
+      "amount": "10 AZN"
+    }
+  ]
+}

@@ -1,0 +1,52 @@
+.menu-container{
+    width: 1440px;
+    height: 800px;
+    background-color: #FAFDFD;
+    position: absolute;
+    z-index: 2;
+    top: 55px;
+    margin: 0 auto;
+    right: 0;
+    background-image: url(/menu-background.svg);
+    
+}
+
+.menu-left{
+    margin-top: 200px;
+
+}
+
+.menu-right{
+    float: left;
+    margin-right: 150px;
+    height: 420px;
+}
+
+.close-menu{
+    position: absolute;
+    left: 445px;
+    top: 45px;
+    background-color: transparent;
+    border: none;
+}
+
+.close-menu img:hover{
+    cursor: pointer;
+}
+
+.menu-container ul li.nav{
+    font-family: Mulish;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 70px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+    cursor:pointer ;
+}
+
+.menu-container ul.nav-ul{
+    margin-top: 172px;
+    margin-left: 146px;
+}
+

@@ -1,0 +1,72 @@
+.footer-container{
+    background-image: url("/public/footer-bg.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 410px;
+    width: 1440px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+
+.footer-container *{
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 0;
+    text-align: left;
+    color: #FFFFFF;
+}
+
+
+#footer-btn{
+    width: 370px;
+    height: 60px;
+    border-radius: 50px;
+    border: 1px solid gray;
+
+}
+
+#arrow-right-footer{
+    width: 100px;
+    height: 63.5px;
+    border-radius: 50px;
+    background-color: #F5AF15;
+    border: none;
+    text-align: center;
+}
+
+.footer-courses{
+
+}
+
+.footer-courses > a{
+    display: block;
+    margin-bottom: 15px;
+    text-decoration: none;
+}
+
+.footer-line{
+    width: 1142px;
+    height: 1px;
+    background-color: #E5E5E5;
+}
+
+.footer-last{
+    display: flex;
+    width: 1142px;
+    justify-content: space-between;
+    margin-top: 25px;
+}
+
+.footer-navs > a{
+    display: block;
+    text-decoration: none;
+    margin-bottom: 15px;
+}
+
+.signup{
+    text-decoration: none;
+    font-weight: bold;
+}

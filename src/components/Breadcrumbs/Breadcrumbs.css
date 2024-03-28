@@ -1,0 +1,29 @@
+.about-bg{
+    background-image: url("/about-bg-comp.png");
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0.8;
+    background-color: #008D96;
+    position: relative;
+    margin-top: 25px;
+}
+
+.about-bg p{
+    color: #fff !important;
+    z-index: 1;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+.about-bg h1{
+    color: #fff ;
+    z-index: 1;
+    font-family: Mulish;
+    font-size: 30px;
+    font-weight: 700;
+
+}

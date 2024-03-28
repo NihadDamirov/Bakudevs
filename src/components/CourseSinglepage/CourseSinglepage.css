@@ -1,0 +1,160 @@
+.page-title{
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0em;
+    color: #939393;
+
+}
+
+.coursname{
+    width: 90px;
+    height: 36px;
+    border-radius: 8px;
+    background-color: #F5AF15;
+    color: #1B2221;
+    font-family: Mulish;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+}
+
+.courstime{
+    color: #939393;
+}
+
+.line-single-page{
+    width: 682px;
+    height: 1px;
+    background-color: #E5E5E5;
+    margin-bottom: 25px;
+    margin-left: 0;
+    margin-top: 15px;
+}
+
+.course-title{
+    font-family: Mulish;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    width:408px;
+
+}
+
+.course-info{
+    width: 682px;
+    color: #939393;
+    margin: 0;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    text-align: left;
+    margin-bottom: 26px ;
+    margin-top: 26px ;
+
+
+}
+
+.videolesson, .android-development{
+    font-family: Mulish;
+    font-size: 26px;
+    font-weight: 700;
+    line-height: 33px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #008D96;
+    margin-bottom: 35px;
+
+}
+
+.course-pic-two img{
+    width: 560px;
+    height: 316px;
+    object-fit: cover;
+    object-position: center;
+
+}
+
+.course-pic-one img{
+    object-fit: cover;
+    width: 250px;
+    height: 190px;
+}
+
+.course-pic-three img{
+    width: 686px;
+    height: 457px;
+    object-fit: cover;
+
+}
+
+.course-pic-two{
+    width: 600px;    
+}
+
+.courstime{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.checkbox-single-page{
+    width: 18px !important;
+    height: 18px !important;
+}
+
+input[type='checkbox'] {
+    accent-color: #008D96;
+}
+
+.course-lesson{
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 24px;
+    letter-spacing: 0em;
+}
+
+.single-course-right{
+    width: 385px;
+    border-top:  1px solid #DFDBDB;
+    border-left:  1px solid #DFDBDB;
+    border-right:  1px solid #DFDBDB;
+    border-radius: 8px 8px 0 0;
+    height: fit-content;
+    margin-top: 105px;
+}
+
+.courses-list{
+    display: flex;
+    align-items: flex-start;
+    width: 390px;
+}
+
+.time-icon-div{
+    width: 100px;
+    height: 20px;
+    display: flex;
+    margin:10px 0 0 40px;
+    font-family: Mulish;
+    color: #008D96;
+}
+
+.courses-wrapper{
+    padding: 15px 0 15px 0;
+    box-sizing: border-box;
+    box-sizing: border-box;
+    border-bottom: 1px solid #DFDBDB;
+    &:hover{
+        background-color: #E3F1F2;
+    }
+}
+
+

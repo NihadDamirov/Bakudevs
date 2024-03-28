@@ -1,0 +1,81 @@
+.header-container{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+    margin-top: 38px;
+    position: relative
+}
+
+.kurslar-menu-div{
+    display: flex;
+    align-items: center;
+}
+
+.kurslar-menu-div a{
+    text-decoration: none;
+    font-family: Mulish;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 28px;
+    letter-spacing: 0em;
+    text-align: left;
+    color: #000;
+}
+
+.istek-siyahisi-div{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.istek-siyahisi-div a{
+    text-decoration: none;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #008D96;
+}
+
+
+.qeydiyyatdan-kec-btn{
+    width: 206px;
+    height: 45px;
+    border-radius: 40px;
+    background-color: #008D96;
+    border: 1px solid #008D96;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: white;
+    padding-right: 20px;
+    text-decoration: none;
+
+}
+
+.login{
+    width: 128px;
+    height: 45px;
+    border-radius: 40px;
+    border: 1px solid #008D96;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: Mulish;
+    line-height: 20px;
+    letter-spacing: 0em;
+    padding-right: 20px;
+    font-size: 16px;
+    font-weight: 700;
+    text-align: center;
+    color: #008D96;
+    text-decoration: none;
+}
